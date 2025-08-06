@@ -56,7 +56,7 @@ export const infos = {
   name: "Dr. Michel Franzen",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "mfadvprevidenciaria@gmail.com", // Sem "www"
   phone: {
     ddd: "47",
     firstPart: "99286", // Apenas os 5 primeiros números (incluindo o 9)
@@ -75,8 +75,8 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua 222, nº 258,</p>
-      <p>sala 4, Bairro Meia Praia,</p>
+      <p>Rua 222, nº 258, sala 4, </p>
+      <p>Bairro Meia Praia,</p>
       <p>Itapema - SC,</p>
       <p>CEP 88220-000</p>
     </div>
@@ -125,7 +125,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO PREVIDENCIÁRIO EM ITAPEMA - SC",
+      miniTag: "ADVOGADO PREVIDENCIARISTA EM ITAPEMA/SC",
       title: (
         <h1 className="mb-[16px]">
           Especialista em Direito
@@ -133,7 +133,7 @@ const content = {
         </h1>
       ),
       subtitle:
-        "Há mais de 20 anos de compromisso com você e soluções claras para seus benefícios.",
+        "Mais de 20 anos de compromisso com você e soluções claras para seus benefícios.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
@@ -194,7 +194,8 @@ const content = {
       card1: {
         img: featuresImg1,
         title: "Aposentadorias",
-        subtitle: "Planejamos e requeremos sua aposentadoria.",
+        subtitle:
+          "Planejamento e requerimento da sua aposentadoria por idade, por tempo de contribuição, por invalidez ou especial.",
         description: (
           <div>
             A_Definir
@@ -229,7 +230,7 @@ const content = {
       card2: {
         img: featuresImg2,
         title: "Pensões",
-        subtitle: "Auxílio para solicitar pensão por morte.",
+        subtitle: "Requerimento de pensões por morte em geral.",
         description: (
           <div>
             A_Definir
@@ -264,7 +265,7 @@ const content = {
       card3: {
         img: featuresImg3,
         title: "Auxílios",
-        subtitle: "Pedido de auxílio-doença e maternidade.",
+        subtitle: "Requerimento de auxílio-doença e auxílio-acidente.",
         description: (
           <div>
             A_Definir <br />
@@ -299,8 +300,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Benefícios de Prestação Continuada - BPC",
-        subtitle: "Solicitação do BPC para idosos e deficientes.",
+        title: "Benefícios Assistenciais",
+        subtitle:
+          "Requerimento de Benefícios Assistenciais ao Idoso e ao Deficiente (BPC/LOAS).",
         description: (
           <div>
             A_Definir
@@ -335,8 +337,8 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Salário-maternidade",
+        subtitle: "Requerimento de Salário-maternidade.",
         description: (
           <div>
             A_Definir
@@ -357,11 +359,49 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+            class="lucide lucide-baby-icon lucide-baby"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5" />
+            <path d="M15 12h.01" />
+            <path d="M19.38 6.813A9 9 0 0 1 20.8 10.2a2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1" />
+            <path d="M9 12h.01" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card6: {
+        img: featuresImg4,
+        title: "Consultoria Previdenciária",
+        subtitle:
+          "Análise e orientação personalizada sobre a situação previdenciária e viabilidade para concessão de benefício previdenciário.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-handshake-icon lucide-handshake"
+          >
+            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
+            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
+            <path d="m21 3 1 11h-2" />
+            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+            <path d="M3 4h8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
