@@ -56,7 +56,7 @@ export const infos = {
   name: "Dr. Michel Franzen",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "mfadvprevidenciaria@gmail.com", // Sem "www"
   phone: {
     ddd: "47",
     firstPart: "99286", // Apenas os 5 primeiros números (incluindo o 9)
