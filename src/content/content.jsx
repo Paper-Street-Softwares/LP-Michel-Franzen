@@ -120,7 +120,13 @@ const content = {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Serviços", "Sobre Nós", "Mapa", "Perguntas Frequentes"],
+      menuItems: [
+        "Início",
+        "Serviços",
+        "Sobre Nós",
+        "Mapa",
+        "Perguntas Frequentes",
+      ],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
@@ -132,8 +138,7 @@ const content = {
           <span className="text-primary"> Previdenciário</span>
         </h1>
       ),
-      subtitle:
-        "Mais de 20 anos de compromisso com você e soluções claras para seus benefícios.",
+      subtitle: "Mais de 20 anos de dedicação exclusiva à área previdenciária.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
@@ -441,7 +446,7 @@ const content = {
       miniTag: "QUEM É O DR. MICHEL FRANZEN",
       title: "Minha trajetória",
       subtitle:
-        "Mais de 20 anos de experiência com atendimento humano e linguagem acessível",
+        "Mais de 20 anos de experiência com atendimento humanizado e linguagem acessível",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
