@@ -200,7 +200,7 @@ const content = {
         img: featuresImg1,
         title: "Aposentadorias",
         subtitle:
-          "Planejamento e requerimento da sua aposentadoria por idade, por tempo de contribuição, por invalidez ou especial.",
+          "Planejamento e requerimento da sua Aposentadoria por Idade, por Tempo de Contribuição, por Invalidez ou Especial.",
         description: (
           <div>
             A_Definir
