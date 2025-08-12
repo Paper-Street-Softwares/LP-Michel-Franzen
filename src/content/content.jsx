@@ -235,7 +235,7 @@ const content = {
       card2: {
         img: featuresImg2,
         title: "Pensões",
-        subtitle: "Requerimento de pensões por morte em geral.",
+        subtitle: "Requerimento de Pensões por Morte em geral.",
         description: (
           <div>
             A_Definir
@@ -270,7 +270,7 @@ const content = {
       card3: {
         img: featuresImg3,
         title: "Auxílios",
-        subtitle: "Requerimento de auxílio-doença e auxílio-acidente.",
+        subtitle: "Requerimento de Auxílio-Doença e Auxílio-Acidente.",
         description: (
           <div>
             A_Definir <br />
@@ -342,8 +342,8 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "Salário-maternidade",
-        subtitle: "Requerimento de Salário-maternidade.",
+        title: "Salário-Maternidade",
+        subtitle: "Requerimento de Salário-Maternidade.",
         description: (
           <div>
             A_Definir
